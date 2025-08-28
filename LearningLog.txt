@@ -1,0 +1,33 @@
+==============================
+Learning Log – FAQ Project
+==============================
+Project: Italian Restaurant FAQ System
+==============================
+
+1. Things I Didn’t Know / Challenges
+-----------------------------------
+- The matching algorithms, specially the logic behind those.
+- How to use well the MVC model  
+- How to user GIT/Bash in order to upload the project
+- How to get the project on a free server.
+
+2. How I Learned / Resources
+-----------------------------
+-Fuzzy/Levenshtein string matching in PHP: https://www.php.net/manual/en/function.levenshtein.php 
+-MVC https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+- Fuzzy Algorithm https://en.wikipedia.org/wiki/Levenshtein_distance
+- MVC - CS50 Shorts https://www.youtube.com/watch?v=Fr4P6FkZUTE&t=443s
+- https://chatgpt.com/ 
+- https://grok.com/ 
+
+
+3. Dead Ends / Blocks
+---------------------
+- When a user enters a input like "asdfas asdf asdfkri", the system stills returns results only if the input is like "r4" returns a invalid response-  
+- Confused about handling multiple words in a query for cosine similarity, had to read examples multiple times.
+
+4.  What you think you would do next in case you were not able to complete a part.
+-----------------------------------
+- If unable to implement i would try to break the problem into smaller chunks and ask for help. 
+
+--

@@ -58,9 +58,3 @@ faq-italian-restaurant/
 └─ README.md                 # Project documentation
 ---
 
-## How It Works
-
-A user types a question in the frontend input.
- 
-
-

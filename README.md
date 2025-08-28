@@ -48,9 +48,13 @@ JS/
   main.js ...................... 3 hours
 
 Public/
+
   frontend.html ............... 2 hours
+  
   keywords.php ................. 2 hours
+  
   search.php ................... 3 hours
+  
   style.css .................... 1.5 hours
 
 Total Development Time: 16 hours

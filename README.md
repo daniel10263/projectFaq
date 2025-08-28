@@ -32,29 +32,27 @@ I also tried to used the MVC, or Model-View-Controller model in order to abstrac
 - `README.md` → Project documentation.
 
 
-faq-italian-restaurant/
-│
-├─ config/
-│   └─ db.php               # Database connection (30 min)
-│
-├─ controllers/
-│   └─ FaqController.php    # Handles API requests (45 min)
-│
-├─ models/
-│   └─ Faq.php               # FAQ model (30 min)
-│
-├─ services/
-│   └─ FaqMatcher.php       # Matching algorithm for queries (3 hours)
-│
-├─ public/
-│   ├─ frontend.html         # Frontend interface (2 hours)
-│   ├─ keywords.php          # Keyword endpoint (2 hours)
-│   ├─ search.php            # Search endpoint (3 hours)
-│   └─ style.css             # Styling (1.5 hours)
-│
-├─ js/
-│   └─ main.js               # Frontend logic (3 hours)
-│
-└─ README.md                 # Project documentation
+Config/
+  db.php ....................... 30 minutes to test DB
+
+Controller/
+  FaqController.php ............ 45 minutes
+
+Models/
+  Faq.php ...................... 30 minutes
+
+Services/
+  FaqMatcher.php ............... 3 hours
+
+JS/
+  main.js ...................... 3 hours
+
+Public/
+  frontend.html ............... 2 hours
+  keywords.php ................. 2 hours
+  search.php ................... 3 hours
+  style.css .................... 1.5 hours
+
+Total Development Time: 16 hours
 ---
 

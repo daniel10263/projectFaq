@@ -1,4 +1,9 @@
 <?php
+
+/**Accepts a search query via a GET parameter (q).
+Connects to a MySQL database (faqitalianrestaurant) and fetches all FAQs.
+Uses a bag-of-words model and cosine similarity to rank FAQs based on how closely the query matches their questions and keywords.
+Returns the top 3 matching FAQs as JSON. */
 header('Content-Type: application/json');
 
 // Database connection

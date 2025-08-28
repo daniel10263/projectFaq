@@ -12,7 +12,7 @@ searchBtn.addEventListener("click", () => {
     autoContainer.innerHTML = "";
 });
 
-
+// cleans the input + answers
 clearBtn.addEventListener("click", () => {
   questionInput.value = "";   // clear input field
   answersContainer.innerHTML = "";  // clear answers shown

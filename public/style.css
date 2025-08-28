@@ -1,0 +1,107 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* 50% opacity black gradient */ url('images/city.jpg');
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  background-position: center center; /* Centers the image */
+  background-size: cover; /* Scales image to cover the element */
+    color: hwb(0 0% 0%);
+    
+    
+    
+
+}
+h1 {
+    display: block;
+    width: fit-content; /* or a specific width, e.g., 300px */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#logo-container {
+    position: absolute;
+    top: 10px; /* Distance from top */
+    right: 10px; /* Distance from right */
+    width: 50%;
+    max-width: 150px; /* Smaller logo size, adjust as needed */
+}
+
+#logo {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+#question {
+    padding: 12px 15px;
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #e63946;
+    border-radius: 25px;
+    font-size: 16px; 
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */ 
+}
+
+#question:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 10px rgba(42, 157, 143, 0.3);
+}
+
+/*check a weird*/
+#autocomplete-list {
+    position: absolute;
+    background-color: #fff;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1000;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+#autocomplete-list div {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-weight: 500;
+}
+
+#autocomplete-list div:hover {
+    background-color: #e9c46a;
+    color: #fff;
+}
+
+.answer {
+    border-left: 5px solid #e63946;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 12px;
+    background-color: #f1faee;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.answer.fallback {
+    color: #d90429;
+    font-style: italic;
+    background-color: #f0fff1;
+}
+
+@media only screen and (max-width: 375px) {
+    body { margin: 15px; }
+    #question, #autocomplete-list { max-width: 100%; }
+    .answer { font-size: 14px; padding: 10px; }
+}
+
+.autocomplete-active {
+    background-color: #2a9d8f !important; /* green highlight */
+    color: #fff !important;
+}
+
+ 
